@@ -19,11 +19,14 @@ We found the best results from using a combination of Deep Neural Multilayer Per
 Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass a predictive trade signal directly to a user’s fingertips.
 
 ### Images in Presentation
-![alt text](./Resources/Classifier.png)
-![alt text](./Resources/LSTM_Price.png)
-![alt text](./Resources/BTcomparisons.png)
-![alt text](./Resources/SmaCrossovers.png)
+<img src="./Resources/Classifier.png" width="700" height="200">
+<img src="./Resources/LSTM_Price.png" width="700" height="200">
+<img src="./Resources/BTcomparisons.png" width="700" height="200">
+<img src="./Resources/SmaCrossovers.png" width="700" height="200">
+
 ![alt text](./Resources/ChatLog.png)
+
+
 
 ____
 ## Technologies
