@@ -17,10 +17,11 @@ We found the best results from using a combination of Deep Neural Multilayer Per
 Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass a predictive trade signal directly to a user’s fingertips.
 
 ### Images in Presentation
-<img src="./Resources/Classifier.png" width="700" height="200">
-<img src="./Resources/LSTM_Price.png" width="700" height="200">
-<img src="./Resources/BTcomparisons.png" width="700" height="200">
-<img src="./Resources/SmaCrossovers.png" width="700" height="200">
+
+<img src="./Resources/Classifier.png" width="700">
+<img src="./Resources/LSTM_Price.png" width="700" >
+<img src="./Resources/BTcomparisons.png" width="700">
+<img src="./Resources/SmaCrossovers.png" width="700">
 <img src="./Resources/ChatLog1.png" width="700" height="400">
 
 
@@ -29,6 +30,12 @@ ____
 This is a Python v 3.7 Machine Learning project using several libraries and modules. 
 
 ####  Modules
+* Pandas, Numpy
+* hvplot
+* scikit-learn, tensor flow, keras
+* finta
+* yfinance
+
 ```
 import pandas as pd
 import numpy as np
@@ -47,6 +54,31 @@ from core.utils import Timer
 from keras.layers import Dense, Activation, Dropout, LSTM
 from keras.models import Sequential, load_model
 from keras.callbacks import EarlyStopping, ModelCheckpoint
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import RepeatedStratifiedKFold, StratifiedKFold
+from sklearn.model_selection import KFold
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.pipeline import Pipeline
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier 
+from sklearn.ensemble import AdaBoostClassifier 
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn import svm
+from sklearn.neural_network import MLPClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from finta import TA
+##### User Helper Functions
+
 from ticker_utils import get_data
 from ticker_utils import create_bollinger_bands
 from ticker_utils import create_signal_using_bollinger
