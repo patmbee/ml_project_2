@@ -23,9 +23,7 @@ Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass
 <img src="./Resources/LSTM_Price.png" width="700" height="200">
 <img src="./Resources/BTcomparisons.png" width="700" height="200">
 <img src="./Resources/SmaCrossovers.png" width="700" height="200">
-
-![alt text](./Resources/ChatLog.png)
-
+<img src="./Resources/ChatLog.png" width="700" height="200">
 
 
 ____
@@ -57,7 +55,8 @@ from ticker_utils import create_signal_using_bollinger
 
 ```
 ####  APIs and Datasources
-The project also leverages three years of daily stocks trades from Yahoo! Finanace for the symbols in the Portfolio and the S&P 500 Index.
+Note: We used ten years of historical stock close price from yfinance and 19 years from alphavantage
+
 * alphavantage
 * yfinance
 
