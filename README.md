@@ -23,7 +23,7 @@ Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass
 <img src="./Resources/LSTM_Price.png" width="700" height="200">
 <img src="./Resources/BTcomparisons.png" width="700" height="200">
 <img src="./Resources/SmaCrossovers.png" width="700" height="200">
-<img src="./Resources/ChatLog.png" width="700" height="700">
+<img src="./Resources/ChatLog.png" width="700" height="400">
 
 
 ____
