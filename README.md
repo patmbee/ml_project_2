@@ -77,21 +77,15 @@ The project requires the following environments to be installed in the main proj
 
 ```
 conda create -n project python=3.7 anaconda -y
-conda activate project
-conda install -c pyviz hvplot geoviews
-pip install python-dotenv
-pip install alpaca-trade-api
-conda install -c anaconda requests
-conda install ipykernel
-conda install nb_conda_kernels
-conda install dash
-conda install -c plotly jupyter-dash
-conda install -c plotly jupyterlab-dash
-pip install streamlit
-pip install streamlit-aggrid
 conda install pandas
-```
+pip install -U scikit-learn
+conda install -c pyviz hvplot
+conda install -c conda-forge imbalanced-learn
+conda install -c conda-forge pydotplus
+pip install --upgrade tensorflow
 
+```
+Create Amazon AWS Account [AWS Homepage](https://aws.amazon.com/)
 
 As a resource, the following link is to the Python 3.7 Reference Guide 
 
