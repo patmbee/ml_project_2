@@ -4,18 +4,16 @@
 
 Photo Credits [License](https://inc42.com/datalab/how-robo-advisors-are-changing-the-financial-advice-industry-in-india/)
 
-## Executive Summary
+## Project Summmary
 [Presentation](https://github.com/patmbee/ml_project_2/blob/main/Presentation.pdf)
-### Overview
+
 We completed an end-to-end machine learning project of algorithmic trading strategies. The project spans from ideation and feature engineering to model optimization, strategy design and backtesting. In addition to meeting our goal of identifying a profitable active trading strategy, we also deepened our proficiency and confidence in this challenging area of FinTech. 
 
-### Signals
 The project developed strategies to validate and predict entry and exits points of the Investco QQQ ETF using two technical indicators, SMA Crossover and Bollinger Bands. We then compared the results. We evaluated and backtested several machine learning libraries and selected the two with the highest accuracy. 
 
-### ML
+
 We found the best results from using a combination of Deep Neural Multilayer Perceptron (MLP), Long Short-term Memory (LSTM) and a Support Vector Machine (SVM). By backtesting simulated historical trades we concluded Bollinger Bands outperforms SMA crossover. With additional effort we could test our theory that combining Bollinger Bands with another technical indicator would outperform the single technical indicator alone.
 
-### Robo-Advisor
 Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass a predictive trade signal directly to a user’s fingertips.
 
 ### Images in Presentation
