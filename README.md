@@ -5,6 +5,7 @@
 Photo Credits [License](https://inc42.com/datalab/how-robo-advisors-are-changing-the-financial-advice-industry-in-india/)
 
 ## Executive Summary
+[Presentation](https://github.com/patmbee/ml_project_2/blob/main/Presentation.pdf)
 ### Overview
 We completed an end-to-end machine learning project of algorithmic trading strategies. The project spans from ideation and feature engineering to model optimization, strategy design and backtesting. In addition to meeting our goal of identifying a profitable active trading strategy, we also deepened our proficiency and confidence in this challenging area of FinTech. 
 
@@ -24,7 +25,7 @@ Finally we provide a beta integration of an Amazon Lex Chatbox and Slack to pass
 ![alt text](./Resources/SmaCrossovers.png)
 ![alt text](./Resources/ChatLog.png)
 
-
+____
 ## Technologies
 This is a Python v 3.7 Machine Learning project using several libraries and modules. 
 
@@ -51,13 +52,26 @@ from ticker_utils import get_data
 from ticker_utils import create_bollinger_bands
 from ticker_utils import create_signal_using_bollinger
 
-
 ```
 ####  APIs and Datasources
 The project also leverages three years of daily stocks trades from Yahoo! Finanace for the symbols in the Portfolio and the S&P 500 Index.
 * alphavantage
 * yfinance
-- - - 
+
+#### Coding
+* [Models](https://github.com/patmbee/ml_project_2/tree/main/Models)
+
+* [LSTM](https://github.com/patmbee/ml_project_2/tree/main/LSTM)
+
+* [RoboAdvisor](https://github.com/patmbee/ml_project_2/tree/main/AWS)
+
+
+[Integrate AWS Chatbot with Slack](https://docs.aws.amazon.com/lex/latest/dg/slack-bot-association.html)
+
+
+
+
+___
 ## Installation Guide
 The project requires the following environments to be installed in the main project file via a command line system:
 
@@ -82,13 +96,13 @@ conda install pandas
 As a resource, the following link is to the Python 3.7 Reference Guide 
 
 [Python documentation](https://docs.python.org/3.7/)
-
+___
 ## Contributors
 This is a group student project for Columbia University FinTech bootcamp built
 by Pat Beeson, Sumeet Vaidya and Scott Oziros
 
 
-- - - 
+___
 ## License
 MIT License
 
